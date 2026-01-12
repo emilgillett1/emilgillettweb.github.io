@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emil - Researcher</title>
+    <title>Emil N. Gillett - Researcher</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-brand">Emil</div>
+            <div class="nav-brand">Emil N. Gillett</div>
             <ul class="nav-menu">
                 <li><a href="#about">About</a></li>
                 <li><a href="#research">Research</a></li>
@@ -25,29 +25,31 @@
                 <div class="profile-section">
                     <img src="profile.jpg" alt="Profile Photo" class="profile-photo">
                     <div class="contact-info">
-                        <h1>Your Name</h1>
-                        <p class="title">PhD Researcher</p>
+                        <h1>Emil N. Gillett</h1>
+                        <p class="title">PhD Candidate in Physical Chemistry</p>
                         <p class="affiliation">University of Illinois at Urbana-Champaign</p>
                         <div class="contact-links">
-                            <a href="mailto:your.email@illinois.edu">✉️ Email</a>
-                            <a href="https://scholar.google.com/YOUR_PROFILE" target="_blank">🎓 Google Scholar</a>
-                            <a href="https://github.com/YOUR_USERNAME" target="_blank">💻 GitHub</a>
+                            <a href="mailto:emilg2@illinois.edu">✉️ emilg2@illinois.edu</a>
+                            <a href="https://scholar.google.com/citations?user=3lXObUEAAAAJ&hl=en" target="_blank">🎓 Google Scholar</a>
+                            <a href="https://github.com/emilgillett1" target="_blank">💻 GitHub</a>
                         </div>
                     </div>
                 </div>
                 <div class="bio">
                     <h2>About Me</h2>
                     <p>
-                        I am a researcher at the University of Illinois at Urbana-Champaign, working on 
-                        <strong>6D single-molecule orientation and localization microscopy (6D-SMOLM)</strong>. 
-                        My research focuses on developing deep learning frameworks that combine multiple neural 
-                        networks to simultaneously determine both 3D spatial positions and 3D orientations of 
-                        fluorescent molecules.
+                        I am a PhD candidate in Physical Chemistry at the University of Illinois at Urbana-Champaign 
+                        in the Landes Research Group, working on <strong>6D single-molecule orientation and localization 
+                        microscopy (6D-SMOLM)</strong>. My research focuses on developing advanced optical microscopy 
+                        techniques that simultaneously determine both 3D spatial positions and 3D molecular orientations 
+                        of fluorescent molecules.
                     </p>
                     <p>
-                        I develop custom microscopy systems using double-helix point spread functions and 
-                        polarization-resolved detection, coupled with advanced computational methods for 
-                        super-resolution imaging and molecular orientation analysis.
+                        I develop custom microscopy systems using phase engineering with liquid crystal spatial light 
+                        modulators (SLMs) and polarization-resolved detection. My work combines vectorial diffraction 
+                        theory simulations with deep learning frameworks to extract molecular dynamics information in 
+                        low signal-to-noise conditions, with applications to battery technology, ion transport in 
+                        polymer electrolytes, and pH-responsive polymer brushes.
                     </p>
                 </div>
             </div>
@@ -58,11 +60,13 @@
             <div class="research-interests">
                 <h3>Research Interests</h3>
                 <ul>
-                    <li>6D Single-Molecule Localization and Orientation Microscopy</li>
-                    <li>Deep Learning for Super-Resolution Microscopy</li>
+                    <li>6D Single-Molecule Localization and Orientation Microscopy (6D-SMOLM)</li>
+                    <li>Deep Learning for Super-Resolution Microscopy and Trajectory Classification</li>
                     <li>Phase Mask Optimization and Point Spread Function Engineering</li>
-                    <li>Fluorescence Microscopy and Photophysics</li>
-                    <li>Ion Exchange Membrane Characterization</li>
+                    <li>Vectorial Diffraction Theory and Optical Simulations</li>
+                    <li>Ion Transport in Polymer Electrolytes and Ion-Exchange Membranes</li>
+                    <li>Single-Molecule Dynamics: Brownian, Directed, Anomalous, and Confined Transport</li>
+                    <li>Motion Blur Analysis in Single-Molecule Microscopy</li>
                 </ul>
             </div>
 
@@ -70,28 +74,42 @@
                 <h3>Current Projects</h3>
                 
                 <div class="project">
-                    <h4>Deep Learning Framework for 6D-SMOLM</h4>
+                    <h4>6D Optical Microscopy for Single-Molecule Tracking</h4>
                     <p>
-                        Developing mDeep-SMOLM and mDeepSTORM3D frameworks that combine multiple neural 
-                        networks to extract full 6D information (x, y, z, θ, φ, ψ) from single-molecule 
-                        fluorescence images using custom double-helix PSF and polarization detection.
+                        Developed a custom 6D optical microscope using phase engineering and a liquid crystal spatial 
+                        light modulator (SLM) to extract 3D positions and 3D orientations of single molecules. Built 
+                        full instrument workflows from hardware alignment to vectorial diffraction theory simulations 
+                        in MATLAB and trained deep learning models on simulated microscopy data to estimate molecular 
+                        orientations in low SNR conditions.
                     </p>
                 </div>
 
                 <div class="project">
-                    <h4>Phase Mask Optimization</h4>
+                    <h4>D-blur: Deep Learning for Motion-Blurred PSFs</h4>
                     <p>
-                        Created fast Variance Upper Bound method achieving 1,000,000x speedup over traditional 
-                        Cramér-Rao Lower Bound computation, with gradient-based optimization to address 
-                        angular degeneracy issues in orientation determination.
+                        Co-developed D-blur, a deep learning method to analyze motion-blurred point spread functions, 
+                        enabling accurate tracking of fast diffusion dynamics in single-molecule microscopy. Created 
+                        a machine learning algorithm to classify single-molecule trajectories (Brownian, directed, 
+                        anomalous, confined transport) with 80% accuracy.
                     </p>
                 </div>
 
                 <div class="project">
-                    <h4>Single-Molecule Studies of Ion Exchange Membranes</h4>
+                    <h4>Ion Transport in Polymer Electrolytes</h4>
                     <p>
-                        Using advanced fluorescence microscopy techniques to study transport mechanisms and 
-                        fouling dynamics in ion exchange membranes for energy and separation applications.
+                        Applied fluorescence microscopy to study ion transport mechanisms in polymer electrolytes and 
+                        pH-responsive polymer brushes to advance battery technology. Aligned optical microscopes for 
+                        simultaneous tracking of orientation of anionic dyes in polyethylene oxide films. Contributed 
+                        to DOE proposal development for investigating fouling mechanisms in ion-exchange membranes.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h4>Antibody Dynamics in 3D</h4>
+                    <p>
+                        Investigating spatial and orientational antibody dynamics in three dimensions using advanced 
+                        single-molecule tracking techniques, combining position and orientation information to understand 
+                        molecular behavior at interfaces.
                     </p>
                 </div>
             </div>
@@ -100,28 +118,47 @@
         <section id="publications" class="section">
             <h2>Publications</h2>
             <div class="publications-list">
+		<div class="publication">
+    			<p class="pub-title">Fused deep-learning enables 6D single-molecule localization in polarization-resolved microscopy</p>
+    			<p class="pub-authors"><strong>Gillett, E.</strong>, Chatterjee, J., Chatterjee, S., Kovalenko, N., Xu, C., Fan, D., Chen, Y., Qiu, Y., Miao, J., Nelavoy, V., Lew, M., Backlund, M., Landes, C.</p>
+    			<p class="pub-venue"><em>In Final Preparation</em></p>
+		</div>
+
                 <div class="publication">
-                    <p class="pub-title">Your Publication Title Here</p>
-                    <p class="pub-authors"><strong>Your Name</strong>, Co-author 1, Co-author 2</p>
-                    <p class="pub-venue"><em>Journal Name</em>, Year</p>
+                    <p class="pub-title">Feature Selection and Hyperparameter Optimization for Machine Learned Classification of 3D Single-Particle Tracking</p>
+                    <p class="pub-authors">Chatterjee, J., Chatterjee, S., <strong>Gillett, E.</strong>, Kovalenko, N., Fan, D., Landes, C.</p>
+                    <p class="pub-venue"><em>Chemical & Biomedical Imaging</em>, 2025</p>
                     <div class="pub-links">
-                        <a href="#">[PDF]</a>
+                        <a href="https://doi.org/10.1021/cbmi.5c00057">[DOI]</a>
+                    </div>
+                </div>
+
+                <div class="publication">
+                    <p class="pub-title">D-Blur: A Deep Learning-Enhanced Approach for Resolving Fast Diffusion Dynamics in Single Molecule Microscopy with Motion Blur</p>
+                    <p class="pub-authors">Fan, D., Kovalenko, N., Chatterjee, J., Chatterjee, S., Xu, C., <strong>Gillett, E.</strong>, Landes, C.</p>
+                    <p class="pub-venue"><em>Chemical & Biomedical Imaging</em></p>
+                    <div class="pub-links">
+                        <a href="https://doi.org/10.1021/cbmi.5c00042">[DOI]</a>
+                    </div>
+                </div>
+
+                <div class="publication">
+                    <p class="pub-title">Imaging Heterogeneous 3D Dynamics of Individual Solutes in a Polyelectrolyte Brush</p>
+                    <p class="pub-authors">Fan, D., Ramezani Bajgiran, S., Safi Samghabadi, F., Dutta, C., <strong>Gillett, E.</strong>, Rossky, P. J., Conrad, J. C., Marciel, A. B., Landes, C. F.</p>
+                    <p class="pub-venue"><em>Langmuir</em>, 2023</p>
+                    <div class="pub-links">
+                        <a href="https://doi.org/10.1021/acs.langmuir.3c00868?urlappend=%3Fref%3DPDF&jav=VoR&rel=cite-as">[DOI]</a>
+                    </div>
+                </div>
+
+                <div class="publication">
+                    <p class="pub-title">A Spectrometer Instrument Assembly and Python-Based Data Science Lab for Studying Reduction Kinetics of Methylene Blue for Secondary Education</p>
+                    <p class="pub-authors">Chatterjee, S., Oh, H., <strong>Gillett, E.</strong>, Bruncz, A., Ferguson, J., Dupas, J., Moses, M., Lee-Paul, S., Tauzin, L., Daniels, C., Link, S., Landes, C.</p>
+                    <p class="pub-venue"><em>Chemical Education</em></p>
+                    <div class="pub-links">
                         <a href="#">[DOI]</a>
-                        <a href="#">[Code]</a>
                     </div>
                 </div>
-
-                <div class="publication">
-                    <p class="pub-title">Another Publication Title</p>
-                    <p class="pub-authors">Co-author 1, <strong>Your Name</strong>, Co-author 2</p>
-                    <p class="pub-venue"><em>Conference Name</em>, Year</p>
-                    <div class="pub-links">
-                        <a href="#">[PDF]</a>
-                        <a href="#">[arXiv]</a>
-                    </div>
-                </div>
-
-                <!-- Add more publications as needed -->
             </div>
         </section>
 
@@ -131,30 +168,72 @@
                 <div class="cv-section">
                     <h3>Education</h3>
                     <div class="cv-item">
-                        <p class="cv-degree">Ph.D. in Chemical Engineering (Expected)</p>
+                        <p class="cv-degree">Ph.D. in Physical Chemistry (Expected May 2026)</p>
                         <p class="cv-institution">University of Illinois at Urbana-Champaign</p>
-                        <p class="cv-year">20XX - Present</p>
+                        <p class="cv-year">January 2024 - Present</p>
                     </div>
                     <div class="cv-item">
-                        <p class="cv-degree">B.S. in Chemical Engineering</p>
-                        <p class="cv-institution">Your Undergraduate Institution</p>
-                        <p class="cv-year">20XX - 20XX</p>
+                        <p class="cv-degree">M.A. in Chemistry</p>
+                        <p class="cv-institution">Rice University, Houston, TX</p>
+                        <p class="cv-year">July 2020 - January 2024</p>
+                    </div>
+                    <div class="cv-item">
+                        <p class="cv-degree">B.S. in Chemistry, magna cum laude (GPA: 3.8)</p>
+                        <p class="cv-institution">Trinity University, San Antonio, TX</p>
+                        <p class="cv-year">August 2019 - May 2021</p>
+                    </div>
+                    <div class="cv-item">
+                        <p class="cv-degree">A.S. in Biology (GPA: 4.0)</p>
+                        <p class="cv-institution">Lone Star College System, Houston, TX</p>
+                        <p class="cv-year">January 2017 - May 2019</p>
                     </div>
                 </div>
 
                 <div class="cv-section">
-                    <h3>Skills</h3>
-                    <p><strong>Programming:</strong> MATLAB, Python, Deep Learning Frameworks</p>
-                    <p><strong>Microscopy:</strong> Fluorescence Microscopy, Super-Resolution Imaging, Custom Optical Systems</p>
-                    <p><strong>Analysis:</strong> Image Processing, Single-Molecule Analysis, Statistical Methods</p>
+                    <h3>Skills & Tools</h3>
+                    <p><strong>Programming & Simulation:</strong> MATLAB, Python, vectorial diffraction theory simulations</p>
+                    <p><strong>Microscopy & Optics:</strong> 4f system alignment, SLM calibration, PSF engineering, interferometry, laser alignment</p>
+                    <p><strong>Data Analysis & Machine Learning:</strong> Deep learning, trajectory analysis, noise modeling, feature selection, hyperparameter optimization</p>
+                    <p><strong>Instrumentation:</strong> EMCCD and sCMOS cameras, liquid crystal spatial light modulators, spectrometer design</p>
+                    <p><strong>Software & Collaboration:</strong> Github, Jupyter, Spyder, Google Colab, MS Office, ImageJ</p>
+                    <p><strong>Fabrication Techniques:</strong> Electron beam evaporation, thermal evaporation, sputtering, atomic layer deposition</p>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Selected Presentations</h3>
+                    <ul>
+                        <li><strong>ISMS 2025</strong> - "Super resolution optical microscopy enables 6D tracking of dipole emitters in crowded environments." Oral presentation, 78th International Symposium on Molecular Spectroscopy, UIUC, June 2025</li>
+                        <li><strong>GRC 2024</strong> - "Tracking Spatial and Orientational Antibody Dynamics in 3D." Poster, Single Molecule Approaches to Biology conference, July 2024</li>
+                        <li><strong>ISMS 2024</strong> - "3D Tracking of Spatial and Orientational Antibody Dynamics." Oral presentation, 77th International Symposium on Molecular Spectroscopy, UIUC, June 2024</li>
+                        <li><strong>Chemical Imaging 2023</strong> - "Tracking Spatial and Orientational Antibody Dynamics in 3D." Poster, Stonehill College, July 2023</li>
+                    </ul>
                 </div>
 
                 <div class="cv-section">
                     <h3>Awards & Honors</h3>
                     <ul>
-                        <li>Award Name, Institution, Year</li>
-                        <li>Fellowship Name, Institution, Year</li>
+                        <li><strong>Rice University Houston Livestock Show & Rodeo Fellowship</strong> - Support for graduate students demonstrating outstanding potential (January 2022)</li>
+                        <li><strong>Rice University J. Evans Attwell-Welch Graduate Fellowship</strong> - Recruiting award for superior chemistry students (August 2021)</li>
+                        <li><strong>ACS Scholars Program</strong> - Competitive scholarship for high-achieving, underrepresented students in chemistry (May 2020)</li>
+                        <li><strong>James Augustus McCloskey Endowed Scholarship</strong> - Merit-based scholarship, Trinity University Chemistry (March 2020)</li>
+                        <li><strong>Trinity University Dean's List</strong> - GPA: 3.8 (August 2019 - May 2021)</li>
+                        <li><strong>Lone Star College President's List</strong> - Graduated with 4.0 GPA (December 2017 - May 2019)</li>
+                        <li><strong>LSC Ambassador Go-Getter Award</strong> - Recognition for stellar student service (March 2018)</li>
                     </ul>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Teaching & Leadership</h3>
+                    <ul>
+                        <li><strong>Laser Safety Officer</strong> - Rice University / UIUC (June 2023 - Present): Oriented 7 lab members on laser safety with no lab accidents</li>
+                        <li><strong>Teaching Assistant</strong> - Rice University CHEM 123, 124 (Fall 2021 - Spring 2023): Led lab sessions and guided experiments</li>
+                        <li><strong>Science Education Outreach</strong> - Developed and led high school lab module teaching spectroscopy, reaction kinetics, and Python analysis; mentored high school students (Summer 2022)</li>
+                    </ul>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Professional Service</h3>
+                    <p>Peer reviewer for: Analytical Chemistry, Environmental Science & Technology, Nano Letters, Biophysical Journal, Journal of Physical Chemistry, Journal of Chemical Physics</p>
                 </div>
 
                 <a href="cv.pdf" class="cv-download" target="_blank">Download Full CV (PDF)</a>
@@ -164,7 +243,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Your Name. Last updated: January 2025</p>
+            <p>&copy; 2025 Emil N. Gillett. Last updated: January 2025</p>
         </div>
     </footer>
 </body>
